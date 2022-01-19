@@ -1,4 +1,8 @@
-root@78.47.171.43
-root@116.203.182.133
-root@116.203.32.223
-root@159.69.89.249
+[web_servers]
+root@78.47.171.43 apache_package=apache2 php_package=libapache2-mod-php
+
+[db_servers]
+root@116.203.182.133 apache_package=apache2 php_package=libapache2-mod-php
+
+[file_servers]
+root@116.203.32.223 apache_package=apache2 php_package=libapache2-mod-php
